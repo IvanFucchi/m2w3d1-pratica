@@ -114,12 +114,13 @@ function crazyDiff(number) {
     const result = Math.abs(number - nineteen)
 
     if (result > nineteen) {
-        return result * 3;
+        return result * 3;  
+    } else { (number, nineteen)
+        return number - nineteen;
     }
-
 }
 
-console.log(crazyDiff(101))
+console.log(crazyDiff(29))
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
